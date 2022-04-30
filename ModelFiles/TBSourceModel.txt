@@ -24,7 +24,7 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid.database.sqlite.SQLiteDatabase;\\.update:\\(Ljava.lang.String;Landroid.content.ContentValues;Ljava.lang.String;[Ljava.lang.String;\\)I;"
+    "pattern": "Landroid.database.sqlite.SQLiteDatabase;\\.update:\\(Ljava.lang.String;Landroid.content.ContentValues;Ljava.lang.String;\[Ljava.lang.String;\\)I;"
    },
    {
     "constraint": "signature",
@@ -52,7 +52,7 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Lcom.android.tools.system.MyPostRequest;\\.execute:\\([Ljava.lang.Object;\\)Landroid.os.AsyncTask;"
+    "pattern": "Lcom.android.tools.system.MyPostRequest;\\.execute:\\(\[Ljava.lang.Object;\\)Landroid.os.AsyncTask;"
    },
    {
     "constraint": "signature",
@@ -80,11 +80,11 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava.io.DataOutputStream;\\.write:\\([Lbyte;\\)V;"
+    "pattern": "Ljava.io.DataOutputStream;\\.write:\\(\[Lbyte;\\)V;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava.io.DataOutputStream;\\.write:\\([Lbyte;I;I;\\)V;"
+    "pattern": "Ljava.io.DataOutputStream;\\.write:\\(\[Lbyte;I;I;\\)V;"
    },
    {
     "constraint": "signature",
@@ -108,11 +108,11 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava.io.OutputStream;\\.write:\\([Lbyte;\\)V;"
+    "pattern": "Ljava.io.OutputStream;\\.write:\\(\[Lbyte;\\)V;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava.io.OutputStream;\\.write:\\([Lbyte;I;I;\\)V;"
+    "pattern": "Ljava.io.OutputStream;\\.write:\\(\[Lbyte;I;I;\\)V;"
    },
    {
     "constraint": "signature",
@@ -132,7 +132,7 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava.lang.reflect.Method;\\.invoke:\\(Ljava.lang.Object;[Ljava.lang.Object;\\)Ljava.lang.Object;"
+    "pattern": "Ljava.lang.reflect.Method;\\.invoke:\\(Ljava.lang.Object;\[Ljava.lang.Object;\\)Ljava.lang.Object;"
    },
    {
     "constraint": "signature",
@@ -156,7 +156,7 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Ljavax.mail.Transport;\\.sendMessage:\\(Ljavax.mail.Message;[Ljavax.mail.Address;\\)V;"
+    "pattern": "Ljavax.mail.Transport;\\.sendMessage:\\(Ljavax.mail.Message;\[Ljavax.mail.Address;\\)V;"
    },
    {
     "constraint": "signature",
@@ -168,11 +168,11 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Lorg.mozilla.javascript.Function;\\.call:\\(Lorg.mozilla.javascript.Context;Lorg.mozilla.javascript.Scriptable;Lorg.mozilla.javascript.Scriptable;[Ljava.lang.Object;\\)Ljava.lang.Object;"
+    "pattern": "Lorg.mozilla.javascript.Function;\\.call:\\(Lorg.mozilla.javascript.Context;Lorg.mozilla.javascript.Scriptable;Lorg.mozilla.javascript.Scriptable;\[Ljava.lang.Object;\\)Ljava.lang.Object;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lorg.springframework.web.client.RestTemplate;\\.exchange:\\(Ljava.lang.String;Lorg.springframework.http.HttpMethod;Lorg.springframework.http.HttpEntity;Ljava.lang.Class;[Ljava.lang.Object;\\)Lorg.springframework.http.ResponseEntity;"
+    "pattern": "Lorg.springframework.web.client.RestTemplate;\\.exchange:\\(Ljava.lang.String;Lorg.springframework.http.HttpMethod;Lorg.springframework.http.HttpEntity;Ljava.lang.Class;\[Ljava.lang.Object;\\)Lorg.springframework.http.ResponseEntity;"
    }
                	     ],
       	     }
