@@ -8,131 +8,167 @@
           "inners": [
    {
     "constraint": "signature",
-    "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/accounts/AccountManager;\\.getAccounts:\\(\\)\\[Landroid/accounts/Account;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/content/Context;\\.startService:\\(Landroid/content/Intent;\\)Landroid/content/ComponentName;"
+    "pattern": "Landroid/content/ContentResolver;\\.query:\\(Landroid/net/Uri;\\[Ljava/lang/String;Ljava/lang/String;\\[Ljava/lang/String;Ljava/lang/String;\\)Landroid/database/Cursor;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/content/Context;\\.startActivity:\\(Landroid/content/Intent;\\)V;"
+    "pattern": "Landroid/content/Context;\\.openFileInput:\\(Ljava/lang/String;\\)Ljava/io/FileInputStream;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/content/SharedPreferences$Editor;\\.commit:\\(\\)Z;"
+    "pattern": "Landroid/content/Context;\\.getSystemService:\\(Ljava/lang/String;\\)Ljava/lang/Object;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.update:\\(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;\\[Ljava/lang/String;\\)I;"
+    "pattern": "Landroid/content/Intent;\\.getExtras:\\(\\)Landroid/os/Bundle;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.insert:\\(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;\\)J;"
+    "pattern": "Landroid/content/Intent;\\.getSerializableExtra:\\(Ljava/lang/String;\\)Ljava/io/Serializable;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/telephony/SmsManager;\\.sendTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;Landroid/app/PendingIntent;\\)V;"
+    "pattern": "Landroid/content/Intent;\\.getStringExtra:\\(Ljava/lang/String;\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/telephony/gsm/SmsManager;\\.sendMultipartTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;\\)V;"
+    "pattern": "Landroid/content/pm/PackageManager;\\.getInstalledPackages:\\(I;\\)Ljava/util/List;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/telephony/gsm/SmsManager;\\.sendTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;Landroid/app/PendingIntent;\\)V;"
+    "pattern": "Landroid/content/res/AssetManager;\\.open:\\(Ljava/lang/String;\\)Ljava/io/InputStream;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/util/Log;\\.i:\\(Ljava/lang/String;Ljava/lang/String;\\)I;"
+    "pattern": "Landroid/database/Cursor;\\.getInt:\\(I;\\)I;"
    },
    {
     "constraint": "signature",
-    "pattern": "Landroid/webkit/WebView;\\.addJavascriptInterface:\\(Ljava/lang/Object;Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/database/Cursor;\\.getString:\\(I;\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lcom/android/tools/system/MyPostRequest;\\.execute:\\(\\[Ljava/lang/Object;\\)Landroid/os/AsyncTask;"
+    "pattern": "Landroid/database/Cursor;\\.getLong:\\(I;\\)J;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lcom/baidu/inf/iis/bcs/BaiduBCS;\\.putObject:\\(Lcom/baidu/inf/iis/bcs/request/PutObjectRequest;\\)Lcom/baidu/inf/iis/bcs/response/BaiduBCSResponse;"
+    "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.query:\\(Ljava/lang/String;\\[Ljava/lang/String;Ljava/lang/String;\\[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;\\)Landroid/database/Cursor;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lcom/example/service/InstallService;\\.startActivity:\\(Landroid/content/Intent;\\)V;"
+    "pattern": "Landroid/location/Location;\\.getLongitude:\\(\\)D;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lcom/movieshow/down/Badaccents;\\.startActivity:\\(Landroid/content/Intent;\\)V;"
+    "pattern": "Landroid/location/LocationManager;\\.getLastKnownLocation:\\(Ljava/lang/String;\\)Landroid/location/Location;"
    },
    {
     "constraint": "signature",
-    "pattern": "Lexts/whats/activities/Cards;\\.startService:\\(Landroid/content/Intent;\\)Landroid/content/ComponentName;"
+    "pattern": "Landroid/net/wifi/WifiInfo;\\.getMacAddress:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/BufferedWriter;\\.write:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/net/wifi/WifiManager;\\.getConnectionInfo:\\(\\)Landroid/net/wifi/WifiInfo;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/DataOutputStream;\\.flush:\\(\\)V;"
+    "pattern": "Landroid/os/Environment;\\.getExternalStorageDirectory:\\(\\)Ljava/io/File;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/DataOutputStream;\\.write:\\(\\[Lbyte;\\)V;"
+    "pattern": "Landroid/telephony/SmsMessage;\\.createFromPdu:\\(\\[Lbyte;\\)Landroid/telephony/SmsMessage;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/DataOutputStream;\\.write:\\(\\[Lbyte;I;I;\\)V;"
+    "pattern": "Landroid/telephony/SmsMessage;\\.getDisplayMessageBody:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/DataOutputStream;\\.writeBytes:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/telephony/SmsMessage;\\.getDisplayOriginatingAddress:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/DataOutputStream;\\.writeUTF:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getDeviceId:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/File;\\.delete:\\(\\)Z;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getLine1Number:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/FileWriter;\\.append:\\(Ljava/lang/CharSequence;\\)Ljava/io/Writer;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getNetworkOperatorName:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/FileWriter;\\.write:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getSimCountryIso:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/OutputStream;\\.write:\\(\\[Lbyte;\\)V;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getSimSerialNumber:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/OutputStream;\\.write:\\(\\[Lbyte;I;I;\\)V;"
+    "pattern": "Landroid/telephony/TelephonyManager;\\.getSubscriberId:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/OutputStreamWriter;\\.write:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/telephony/gsm/GsmCellLocation;\\.getLac:\\(\\)I;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/PrintWriter;\\.append:\\(Ljava/lang/CharSequence;\\)Ljava/io/PrintWriter;"
+    "pattern": "Landroid/telephony/gsm/SmsMessage;\\.createFromPdu:\\(\\[Lbyte;\\)Landroid/telephony/gsm/SmsMessage;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/PrintWriter;\\.println:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/telephony/gsm/SmsMessage;\\.getDisplayMessageBody:\\(\\)Ljava/lang/String;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/io/PrintWriter;\\.write:\\(Ljava/lang/String;\\)V;"
+    "pattern": "Landroid/widget/EditText;\\.getText:\\(\\)Landroid/text/Editable;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/lang/reflect/Method;\\.invoke:\\(Ljava/lang/Object;\\[Ljava/lang/Object;\\)Ljava/lang/Object;"
+    "pattern": "Lcom/example/bankmanager/BankActivity;\\.findViewById:\\(I;\\)Landroid/view/View;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Lcom/google/elements/Utils;\\.getDeviceId:\\(\\)Ljava/lang/String;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Lexts/whats/activities/Cards;\\.findViewById:\\(I;\\)Landroid/view/View;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Lfrhfsd/siksdk/ujdsfjkfsd/WrehifsdkjsActivity;\\.managedQuery:\\(Landroid/net/Uri;\\[Ljava/lang/String;Ljava/lang/String;\\[Ljava/lang/String;Ljava/lang/String;\\)Landroid/database/Cursor;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/io/File;\\.listFiles:\\(\\)\\[Ljava/io/File;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/io/File;\\.<init>:\\(Ljava/io/File;Ljava/lang/String;\\)V;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/io/File;\\.<init>:\\(Ljava/lang/String;\\)V;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/io/FileInputStream;\\.<init>:\\(Ljava/io/File;\\)V;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/io/FileInputStream;\\.<init>:\\(Ljava/lang/String;\\)V;"
+   },
+   {
+    "constraint": "signature",
+    "pattern": "Ljava/lang/Class;\\.getDeclaredMethod:\\(Ljava/lang/String;\\[Ljava/lang/Class;\\)Ljava/lang/reflect/Method;"
    },
    {
     "constraint": "signature",
@@ -140,41 +176,13 @@
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/net/HttpURLConnection;\\.getOutputStream:\\(\\)Ljava/io/OutputStream;"
+    "pattern": "Ljava/net/URL;\\.openStream:\\(\\)Ljava/io/InputStream;"
    },
    {
     "constraint": "signature",
-    "pattern": "Ljava/net/HttpURLConnection;\\.connect:\\(\\)V;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Ljava/net/URLConnection;\\.getInputStream:\\(\\)Ljava/io/InputStream;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.submit:\\(Ljava/lang/Runnable;\\)Ljava/util/concurrent/Future;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Ljavax/mail/Transport;\\.sendMessage:\\(Ljavax/mail/Message;\\[Ljavax/mail/Address;\\)V;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Lorg/apache/http/client/HttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;\\)Lorg/apache/http/HttpResponse;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Lorg/apache/http/impl/client/DefaultHttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;\\)Lorg/apache/http/HttpResponse;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Lorg/mozilla/javascript/Function;\\.call:\\(Lorg/mozilla/javascript/Context;Lorg/mozilla/javascript/Scriptable;Lorg/mozilla/javascript/Scriptable;\\[Ljava/lang/Object;\\)Ljava/lang/Object;"
-   },
-   {
-    "constraint": "signature",
-    "pattern": "Lorg/springframework/web/client/RestTemplate;\\.exchange:\\(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity;Ljava/lang/Class;\\[Ljava/lang/Object;\\)Lorg/springframework/http/ResponseEntity;"
+    "pattern": "Lorg/apache/http/HttpEntity;\\.getContent:\\(\\)Ljava/io/InputStream;"
    }
-               	     ],
+				],
       	     }
       ],
       "model": {
@@ -182,9 +190,9 @@
           {
             "variable": "x",
             "where": [],
-            "sinks": [
+            "sources": [
               {
-                "kind": "TBSinkModel",
+                "kind": "TBSourceModel",
                 "port": "Argument(x)"
               }
             ]
