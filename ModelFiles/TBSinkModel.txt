@@ -184,7 +184,7 @@
             "where": [],
             "sinks": [
               {
-                "kind": "UltraSink",
+                "kind": "TBSinkModel",
                 "port": "Argument(x)"
               }
             ]
